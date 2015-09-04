@@ -12,6 +12,17 @@ Or add a GitHub repository entry if you are using a Plugin Manager such as `Vund
 Plugin 'ktonga/vim-follow-my-lead'
 ```
 
+or `Pathogen`:
+
+Get pathogen
+
+```mkdir -p ~/.vim/autoload ~/.vim/bundle && \
+curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim```
+
+clone repository
+
+```(cd ~/.vim/bundle && git clone https://github.com/ktonga/vim-follow-my-lead/edit/master/README.md)```
+
 Features
 --------
 * Look for mappings (only to `<Leader>`) in scripts sourced by Vim
