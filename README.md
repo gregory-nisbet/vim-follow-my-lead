@@ -16,12 +16,16 @@ or `Pathogen`:
 
 Get pathogen
 
-```mkdir -p ~/.vim/autoload ~/.vim/bundle && \
-curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim```
+```
+mkdir -p ~/.vim/autoload ~/.vim/bundle && \
+curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
+```
 
 clone repository
 
-```(cd ~/.vim/bundle && git clone https://github.com/ktonga/vim-follow-my-lead/edit/master/README.md)```
+```
+(cd ~/.vim/bundle && git clone https://github.com/ktonga/vim-follow-my-lead/edit/master/README.md)
+```
 
 Features
 --------
